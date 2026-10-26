@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "upg",
+  "version": "${version}",
+  "name": "Upg",
+  "description": "/upg upgrades your equipped diamond armor and tools to netherite, keeping enchantments.",
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.upg.UpgMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
